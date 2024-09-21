@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kelumchamikara/PizzaMaster.git/static/css/main.317d2905.css",
+    "main.js": "/kelumchamikara/PizzaMaster.git/static/js/main.22fb0d38.js",
+    "static/js/453.f33d9648.chunk.js": "/kelumchamikara/PizzaMaster.git/static/js/453.f33d9648.chunk.js",
+    "static/media/bg2.png": "/kelumchamikara/PizzaMaster.git/static/media/bg2.bf135e3e3f901ed8ff1d.png",
+    "static/media/bg.jpg": "/kelumchamikara/PizzaMaster.git/static/media/bg.a7339b635a3180c9fb05.jpg",
+    "index.html": "/kelumchamikara/PizzaMaster.git/index.html",
+    "main.317d2905.css.map": "/kelumchamikara/PizzaMaster.git/static/css/main.317d2905.css.map",
+    "main.22fb0d38.js.map": "/kelumchamikara/PizzaMaster.git/static/js/main.22fb0d38.js.map",
+    "453.f33d9648.chunk.js.map": "/kelumchamikara/PizzaMaster.git/static/js/453.f33d9648.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.317d2905.css",
+    "static/js/main.22fb0d38.js"
+  ]
+}
