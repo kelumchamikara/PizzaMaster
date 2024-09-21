@@ -1,0 +1,404 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  background:url("/public/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.banner__content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.container{
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+}
+
+.banner__text{
+  width: 500px;
+  margin-top: 50px;
+
+}
+
+.banner__text h3{
+  font-size: 50px;
+}
+
+.banner__text h1{
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.banner__text p{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  border-color: black;
+}
+
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar__text{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 40px;
+
+}
+
+.navbar__ul{
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 350px;
+}
+
+
+.navbar__ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 0 25px;
+  font-weight: 700;
+}
+
+.navbar__ul li a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+
+.banner__btn{
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  padding: 20px 40px;
+  
+}
+
+.banner__btn button{
+  background: rgb(0, 108, 20);
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+  margin-left: -35px;
+  border-style: double;
+
+}
+
+.banner__btn button:hover{
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+
+/*About Section*/
+
+.about{
+  padding: 80px 0;
+  
+}
+
+.p-25{
+  padding: 45px;
+
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.col-6{
+  width: 50%;
+}
+
+.about h3{
+  color: red;
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.about h1{
+  font-size: 50px;
+  color: black;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+
+.about p{
+  font-size: 18px;
+  color: rgb(216, 135, 135);
+  font-weight: 300;
+}
+
+.about__img{
+  width: 100%;  
+  overflow: hidden;
+}
+
+.about__img img{
+  width: 100%;
+}
+
+
+/*Shop Section*/
+
+.shop{
+  width: 100%;
+  background:url('/public/img/bg2.png');
+  height: 500px;
+  background-position: fixed;
+  background-attachment: fixed;
+}
+.shop__text{
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: center;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  border-color: blue;
+  
+
+}
+
+.shop__text h1{
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.shop__text h1 span{
+  color: rgb(245, 255, 211);
+  text-decoration: wavy;
+  font-size: 60px;
+  
+}
+
+.shop__btn{
+  margin-top: 35px;
+
+}
+
+/*Client Section*/
+
+.clients{
+  width: 100%;
+  padding: 80px 0;
+  background-color: rgb(37, 28, 28);
+}
+
+.col-3{
+  width: 25%;
+}
+
+.client{
+  text-align: center;
+}
+
+.client h1{
+  font-size: 45px;
+}
+
+.client p{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+
+/*Price Section*/
+
+.prices{
+  width: 100%;
+  padding: 80px 0;
+
+}
+
+.col-4{
+  width: 33.33%;
+  
+}
+
+.price{
+  padding: 20px;
+  text-align: center;
+}
+
+.price__img{
+  width: 100%;
+}
+
+.price__img img{
+  width: 350px;
+}
+
+.price__heading{
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+.price__text{
+  margin-top: 15px;
+  color: #888888;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.price__rs{
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: 700;
+  color: rgb(135, 52, 52);
+}
+
+.buy__btn{
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 40px;
+}
+
+.buy__btn:hover{
+  background-color: black;
+  color: white;
+}
+
+/*Footer Section*/
+
+.fotter{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(37, 28, 28);
+}
+
+.ft-name p{
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+@media(max-width:600px){
+  .navbar__text{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .logo{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .container{
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .banner__text{
+    width: auto;
+    margin-top: 50px;
+  
+  }
+  
+  .banner__text h3{
+    font-size: 25px;
+  }
+  
+  .banner__text h1{
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  
+  .banner__text p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  .col-3,
+  .col-4,
+   .col-6{
+    width: 100%;
+
+  }
+
+  .client{
+    margin: 20px 0 ;
+  }
+
+  .navbar__text{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .navbar__ul{
+    width: 100%;
+    
+  }
+
+  .navbar__ul li a{
+    text-decoration: none;
+    color: white;
+    padding-right: -10px;
+    font-weight: 600;
+  }
+
+}
